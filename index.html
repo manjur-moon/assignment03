@@ -9,6 +9,27 @@
         @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
         </style>
         <script src="https://kit.fontawesome.com/661ded0dbd.js" crossorigin="anonymous"></script>
+
+        
+
+<style>
+    .adlam-display {
+  font-family: "ADLaM Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.sora {
+  font-family: "Sora", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+</style>
+
+
     </head>
 
 
@@ -16,10 +37,10 @@
 <body>
     <header>
         <!-- navbar -->
-        <nav class="max-w-7xl mx-auto px-1 flex justify-items-start justify-between px-6 py-4  bg-[#FFF9F4]">
+        <nav class="max-w-7xl mx-auto px-1 flex justify-items-center justify-between px-6 py-4 sm:mb-8  bg-[#FFF9F4]">
             <div class="flex items-center space-x-2">
                 <span class="text-yellow-500 text-2xl"><img src="Assignment_03_Category_0001/images/logo-header.png" alt=""></span>
-                <span class="hidden sm:flex font-semibold text-lg">Browse<span class="text-yellow-500">4</span>Pets</span>
+                <span class="hidden sm:flex font-regular text-lg">Browse<span class="text-yellow-500">4</span>Pets</span>
             </div>
             <div class="hidden md:flex space-x-6">
                 <a href="#" class="text-gray-700">Find a pet</a>
@@ -27,22 +48,46 @@
                 <a href="#" class="text-gray-700">Contact us</a>
             </div>
             <div class="hidden md:flex items-center space-x-4">
-                <span class="cursor-pointer">&#128269;</span>
-                <button class="border border-gray-700 px-4 py-1 rounded-lg">Login</button>
-                <button class="bg-yellow-500 px-4 py-1 rounded-lg">Register</button>
+                
+                <span class="cursor-pointer"><i class="fa-regular fa-bell"></i></i></span>
+                <span class="cursor-pointer"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <button class="border border-yellow-300 px-4 py-1 rounded-lg">Login</button>
+                <button class="bg-yellow-300 px-4 py-1 rounded-lg">Register</button>
             </div>
             <!-- Hamburger Icon -->
             <button class="md:hidden text-2xl"><i class="fa-solid fa-bars"></i></button>
         </nav>
 
+        
 
-
-
-        <!-- banner-section -->
 
     </header>
 
     <main>
+        <!-- banner-section -->
+        <section class="max-w-screen-xl mx-auto px-6 py-12 h-auto min-h-[749px] w-full flex flex-col md:grid md:grid-cols-2 items-center bg-cover bg-center bg-no-repeat" style="background-image: url('Assignment_03_Category_0001/images/cat-big.png');">
+        
+
+        
+            <div class="text-left md:text-left space-y-4">
+                <h1 class="text-left text-4xl font-bold text-gray-900">Pamper Your Pet,<br>Because They Deserve, <br> the Bes <span class="relative flex size-3">
+                    <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-black-400 opacity-175">hello pets</span>
+                    
+                  </span></h1>
+                <p class="mt-4 text-left text-gray-700 w-3/4">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+                
+                <div class="mt-6 flex md:justify-start justify-start">
+                    <button class="bg-yellow-300 text-gray-700 px-6 py-2 rounded-lg">Find a pet</button>
+                </div>
+                
+            </div>
+            
+            
+        </section>
+
+
+
+
         <!-- Browse By Categories -->
 
 
