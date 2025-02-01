@@ -8,6 +8,10 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
         </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+            </style>
+        
         <script src="https://kit.fontawesome.com/661ded0dbd.js" crossorigin="anonymous"></script>
 
         
@@ -21,10 +25,10 @@
 
 
 .sora {
-  font-family: "Sora", serif;
+  font-family: "Sora";
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+  font-weight: 400;
+  font-style: regular;
 }
 
 </style>
@@ -37,12 +41,12 @@
 <body>
     <header>
         <!-- navbar -->
-        <nav class="max-w-7xl mx-auto px-1 flex justify-items-center justify-between px-6 py-4 sm:mb-8  bg-[#FFF9F4]">
+        <nav class="max-w-7xl mx-auto  flex justify-items-center justify-between px-6 py-4 sm:mb-8  bg-[#FFF9F4]">
             <div class="flex items-center space-x-2">
                 <span class="text-yellow-500 text-2xl"><img src="Assignment_03_Category_0001/images/logo-header.png" alt=""></span>
-                <span class="hidden sm:flex font-regular text-lg">Browse<span class="text-yellow-500">4</span>Pets</span>
+                <span class="hidden sm:flex font-regular text-lg sora">Browse<span class="text-yellow-500">4</span>Pets</span>
             </div>
-            <div class="hidden md:flex space-x-6">
+            <div class="hidden md:flex space-x-6 sora">
                 <a href="#" class="text-gray-700">Find a pet</a>
                 <a href="#" class="text-gray-700">Breeds</a>
                 <a href="#" class="text-gray-700">Contact us</a>
@@ -51,8 +55,8 @@
                 
                 <span class="cursor-pointer"><i class="fa-regular fa-bell"></i></i></span>
                 <span class="cursor-pointer"><i class="fa-solid fa-magnifying-glass"></i></span>
-                <button class="border border-yellow-300 px-4 py-1 rounded-lg">Login</button>
-                <button class="bg-yellow-300 px-4 py-1 rounded-lg">Register</button>
+                <button class="border border-yellow-300 px-4 py-1 rounded-lg sora">Login</button>
+                <button class="bg-yellow-300 px-4 py-1 rounded-lg sora">Register</button>
             </div>
             <!-- Hamburger Icon -->
             <button class="md:hidden text-2xl"><i class="fa-solid fa-bars"></i></button>
@@ -65,12 +69,12 @@
 
     <main>
         <!-- banner-section -->
-        <section class="max-w-screen-xl mx-auto px-6 py-12 h-auto min-h-[749px] w-full flex flex-col md:grid md:grid-cols-2 items-center bg-cover bg-center bg-no-repeat" style="background-image: url('Assignment_03_Category_0001/images/cat-big.png');">
+        <section class="max-w-screen-xl mx-auto px-6 py-12 h-auto min-h-[749px] w-full lg:flex flex-col sm:grid sm:grid-cols-1 md:grid md:grid-cols-1 items-center bg-cover bg-center bg-no-repeat " style="background-image: url('Assignment_03_Category_0001/images/cat-big.png');">
         
 
         
             <div class="text-left md:text-left space-y-4">
-                <h1 class="text-left text-4xl font-bold text-gray-900">Pamper Your Pet,<br>Because They Deserve, <br> the Bes <span class="relative flex size-3">
+                <h1 class="text-left text-4xl font-bold text-gray-900 adlam-display">Pamper Your Pet,<br>Because They Deserve, <br> the Bes <span class="relative flex size-3">
                     <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-black-400 opacity-175">hello pets</span>
                     
                   </span></h1>
@@ -89,6 +93,55 @@
 
 
         <!-- Browse By Categories -->
+
+        <section class="max-w-7xl mx-auto px-6 py-12">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6 adlam-display">Browse By Categories</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-6 gap-4">
+                <div class="bg-amber-200 p-6 rounded-xl text-center overflow-hidden">
+                    <div class="bg-white w-20 h-20 flex items-center justify-center rounded-full mx-auto mb-3 overflow-hidden">
+                        <img class="mx-auto mb-2" src="Assignment_03_Category_0001/images/dog-cartoon.png" alt="Dog">
+                    </div>
+                    <p class="font-bold">Dog</p>
+                    <p class="text-gray-700">3 items</p>
+                </div>
+                <div class="bg-amber-200 p-6 rounded-xl text-center">
+                    <div class="bg-white w-20 h-20 flex items-center justify-center rounded-full mx-auto mb-3">
+                        <img src="Assignment_03_Category_0001/images/fish-cartoon.png" alt="Fish" class="mx-auto mb-2">
+                    </div>
+                    <p class="font-bold">Fish</p>
+                    <p class="text-gray-700">3 items</p>
+                </div>
+                <div class="bg-amber-200 p-6 rounded-xl text-center overflow-hidden">
+                    <div class="bg-white w-20 h-20 flex items-center justify-center rounded-full mx-auto mb-3">
+                        <img src="Assignment_03_Category_0001/images/cat-cartoon.png" alt="Cat" class="mx-auto mb-2">
+                    </div>
+                    <p class="font-bold">Cat</p>
+                    <p class="text-gray-700">3 items</p>
+                </div>
+                <div class="bg-amber-200 p-6 rounded-xl text-center overflow-hidden">
+                    <div class="bg-white w-20 h-20 flex items-center justify-center rounded-full mx-auto mb-3">
+                        <img src="Assignment_03_Category_0001/images/bird-cartoon.png" alt="Birds" class="mx-auto mb-2">
+                    </div>
+                    <p class="font-bold">Birds</p>
+                    <p class="text-gray-700">3 items</p>
+                </div>
+                <div class="bg-amber-200 p-6 rounded-xl text-center overflow-hidden">
+                    <div class="bg-white w-20 h-20 flex items-center justify-center rounded-full mx-auto mb-3">
+                        <img src="Assignment_03_Category_0001/images/mouse-cartoon.png" alt="Small Pet" class="mx-auto mb-2">
+                    </div>
+                    <p class="font-bold">Small pet</p>
+                    <p class="text-gray-700">3 items</p>
+                </div>
+                <div class="bg-amber-200 p-6 rounded-xl text-center overflow-hidden">
+                    <div class="bg-white w-20 h-20 flex items-center justify-center rounded-full mx-auto mb-3">
+                        <img src="Assignment_03_Category_0001/images/rabbit-cartoon.png" alt="Rabbit" class="mx-auto mb-2">
+                    </div>
+                    <p class="font-bold">Rabbit</p>
+                    <p class="text-gray-700">2 items</p>
+                </div>
+            </div>
+        </section>
+        
 
 
         <!-- Trending Pet Products -->
