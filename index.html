@@ -71,26 +71,61 @@
 
     <main>
         <!-- banner-section -->
-        <section class="max-w-screen-xl mx-auto px-6 py-12 h-auto min-h-[749px] w-full lg:flex flex-col sm:grid sm:grid-cols-1 md:grid md:grid-cols-1 items-center bg-cover bg-center bg-no-repeat " style="background-image: url('Assignment_03_Category_0001/images/cat-big.png');">
-            
-        
+         <!-- Mobile Section -->
+<section class="max-w-screen-xl mx-auto px-6 py-12 h-auto w-full flex flex-col items-start sm:hidden">
+    <div class="text-left space-y-4">
+        <h1 class="text-left text-4xl font-bold text-gray-900 adlam-display">
+            Pamper Your Pet,<br>Because They Deserve,<br> the Bes
+            <span class="relative inline-flex ml-2">
+                <span class="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-black opacity-75">
+                    hello pets
+                </span>
+            </span>
+        </h1>
+        <p class="mt-4 text-left text-gray-700 w-3/4">
+            Discover a world of treats, toys, and essentials handpicked for your furry friends. 
+            Shop now and make tails wag with joy!
+        </p>
+        <div class="mt-6 flex justify-start">
+            <button class="bg-yellow-300 text-gray-700 hover:bg-yellow-500 px-6 py-2 rounded-lg sora">
+                Find a pet
+            </button>
+        </div>
+        <!-- image for small screen -->
+        <div class="w-full flex justify-start mt-6">
+            <img src="Assignment_03_Category_0001/images/cat-big.png" alt="Cat" class="max-w-xs">
+        </div>
+    </div>
+</section>
 
-        
-            <div class="text-left md:text-left space-y-4">
-                <h1 class="text-left text-4xl font-bold text-gray-900 adlam-display">Pamper Your Pet,<br>Because They Deserve, <br> the Bes <span class="relative flex size-3">
-                    <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-black-400 opacity-175">hello pets</span>
-                    
-                  </span></h1>
-                <p class="mt-4 text-left text-gray-700 w-3/4">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
-                
-                <div class="mt-6 flex md:justify-start justify-start">
-                    <button class="bg-yellow-300 text-gray-700 hover:bg-yellow-500 px-6 py-2 rounded-lg sora">Find a pet</button>
-                </div>
-                
-            </div>
-            
-            
-        </section>
+<!-- large screen Section -->
+<section class="max-w-screen-xl mx-auto px-6 py-12 h-auto min-h-[749px] w-full 
+    hidden sm:block lg:flex flex-col sm:grid-cols-1 md:grid md:grid-cols-1 items-center 
+    bg-cover bg-center bg-no-repeat" 
+    style="background-image: url('Assignment_03_Category_0001/images/cat-big.png');">
+    
+    <div class="text-left md:text-left space-y-4">
+        <h1 class="text-left text-4xl font-bold text-gray-900 adlam-display">
+            Pamper Your Pet,<br>Because They Deserve,<br> the Best
+            <span class="relative inline-flex ml-2">
+                <span class="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-black opacity-75">
+                    hello pets
+                </span>
+            </span>
+        </h1>
+        <p class="mt-4 text-left text-gray-700 w-3/4">
+            Discover a world of treats, toys, and essentials handpicked for your furry friends. 
+            Shop now and make tails wag with joy!
+        </p>
+        <div class="mt-6 flex justify-start">
+            <button class="bg-yellow-300 text-gray-700 hover:bg-yellow-500 px-6 py-2 rounded-lg sora">
+                Find a pet
+            </button>
+        </div>
+    </div>
+</section>
+
+
 
 
 
